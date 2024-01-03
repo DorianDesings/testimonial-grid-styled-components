@@ -21,6 +21,7 @@ const StyledCardHeader = styled.div`
 `;
 
 const StyledProfileImage = styled.img`
+	width: 1.75rem;
 	border-radius: 50%;
 	outline: ${({ $borderImage }) => $borderImage && '4px solid' + $borderImage};
 `;
